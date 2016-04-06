@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the coolstuff sdfsdfsdfsdf feature.
+ */
+
+include_once 'coolstuff_node_sdfsdfsdfsdf.features.inc';

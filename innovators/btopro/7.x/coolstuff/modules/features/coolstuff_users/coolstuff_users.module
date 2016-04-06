@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the coolstuff Users feature.
+ */
+
+include_once 'coolstuff_users.features.inc';

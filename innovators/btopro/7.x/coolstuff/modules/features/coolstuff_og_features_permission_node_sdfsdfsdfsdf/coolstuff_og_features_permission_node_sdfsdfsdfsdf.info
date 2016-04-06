@@ -1,0 +1,15 @@
+name = coolstuff node sdfsdfsdfsdf og features permission
+core = 7.x
+package = OG
+dependencies[] = test_og_features_permission_node_sdfsdfsdfsdf
+features[features_api][] = api:2
+features[og_features_permission][] = node:sdfsdfsdfsdf:add user
+features[og_features_permission][] = node:sdfsdfsdfsdf:administer group
+features[og_features_permission][] = node:sdfsdfsdfsdf:approve and deny subscription
+features[og_features_permission][] = node:sdfsdfsdfsdf:manage members
+features[og_features_permission][] = node:sdfsdfsdfsdf:manage permissions
+features[og_features_permission][] = node:sdfsdfsdfsdf:manage roles
+features[og_features_permission][] = node:sdfsdfsdfsdf:subscribe
+features[og_features_permission][] = node:sdfsdfsdfsdf:subscribe without approval
+features[og_features_permission][] = node:sdfsdfsdfsdf:unsubscribe
+features[og_features_permission][] = node:sdfsdfsdfsdf:update group
