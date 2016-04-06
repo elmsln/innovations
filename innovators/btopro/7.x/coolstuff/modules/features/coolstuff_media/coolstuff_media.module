@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the coolstuff Media feature.
+ */
+
+include_once 'coolstuff_media.features.inc';

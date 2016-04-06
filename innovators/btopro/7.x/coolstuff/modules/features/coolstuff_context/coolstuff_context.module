@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the coolstuff Context feature.
+ */
+
+include_once 'coolstuff_context.features.inc';

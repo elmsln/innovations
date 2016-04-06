@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the coolstuff Course Section feature.
+ */
+
+include_once 'coolstuff_node_section.features.inc';
