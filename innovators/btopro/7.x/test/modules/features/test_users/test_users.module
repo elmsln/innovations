@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the test Users feature.
+ */
+
+include_once 'test_users.features.inc';
