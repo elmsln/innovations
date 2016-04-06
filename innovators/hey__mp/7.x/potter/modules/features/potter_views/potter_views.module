@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the potter Views feature.
+ */
+
+include_once 'potter_views.features.inc';
