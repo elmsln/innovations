@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the future Context feature.
+ */
+
+include_once 'future_context.features.inc';

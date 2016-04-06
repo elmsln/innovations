@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the future Media feature.
+ */
+
+include_once 'future_media.features.inc';

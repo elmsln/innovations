@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the future Site feature.
+ */
+
+include_once 'future_site.features.inc';
