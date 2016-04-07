@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the test7 Views feature.
+ */
+
+include_once 'test7_views.features.inc';
