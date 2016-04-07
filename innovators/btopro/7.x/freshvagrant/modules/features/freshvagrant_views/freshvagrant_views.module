@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the freshvagrant Views feature.
+ */
+
+include_once 'freshvagrant_views.features.inc';

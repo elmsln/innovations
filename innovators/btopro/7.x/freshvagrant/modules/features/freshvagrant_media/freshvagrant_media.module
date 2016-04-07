@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the freshvagrant Media feature.
+ */
+
+include_once 'freshvagrant_media.features.inc';

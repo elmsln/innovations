@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the freshvagrant Site feature.
+ */
+
+include_once 'freshvagrant_site.features.inc';
