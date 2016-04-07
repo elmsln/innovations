@@ -1,0 +1,3368 @@
+{
+	"name": "Test run",
+	"drush_recipes_api": "1.0",
+	"weight": "0",
+	"core": "test",
+	"recipe": [
+		{
+			"command": "dl",
+			"arguments": [
+				"aaa_update_test",
+				"accessibility_content",
+				"accessibility_reporting",
+				"accessibility_testswarm",
+				"accessibility_theming",
+				"actions_loop_test",
+				"actions_permissions",
+				"admin_devel",
+				"admin_views",
+				"admin_views_test",
+				"advagg_css_cdn",
+				"advagg_css_compress",
+				"advagg_ext_compress",
+				"advagg_font",
+				"advagg_js_cdn",
+				"advagg_js_compress",
+				"advagg_validator",
+				"advanced_help",
+				"aes",
+				"aggregator",
+				"aggregator_test",
+				"ajax_forms_test",
+				"ajax_test",
+				"apc",
+				"apdqc",
+				"aplaything_context",
+				"aplaything_fields",
+				"aplaything_media",
+				"aplaything_menu",
+				"aplaything_node_sdfsdfsdfsdf",
+				"aplaything_node_section",
+				"aplaything_og_features_permission_node_sdfsdfsdfsdf",
+				"aplaything_og_features_permission_node_section",
+				"aplaything_og_membership_type_og_membership_type_og_membership_type_default",
+				"aplaything_site",
+				"aplaything_users",
+				"aplaything_views",
+				"authcache_ajax_test",
+				"authcache_backend_test",
+				"authcache_builtin_expire_v1",
+				"authcache_builtin_expire_v2",
+				"authcache_builtin_test",
+				"authcache_comment",
+				"authcache_commerce",
+				"authcache_debug",
+				"authcache_enum",
+				"authcache_esi",
+				"authcache_esi_debug",
+				"authcache_esi_test",
+				"authcache_flag",
+				"authcache_form",
+				"authcache_form_test",
+				"authcache_forum",
+				"authcache_menu_test",
+				"authcache_node_history",
+				"authcache_p13n_test",
+				"authcache_page_manager",
+				"authcache_panels",
+				"authcache_panels_page_manager",
+				"authcache_panels_page_manager_test",
+				"authcache_poll",
+				"authcache_relation",
+				"authcache_test",
+				"authcache_test_hookstub",
+				"authcache_varnish",
+				"authcache_votingapi",
+				"authcache_widget_test",
+				"autosave",
+				"auto_nodetitle",
+				"backup_migrate",
+				"batch_test",
+				"bbb_update_test",
+				"bef_test_content",
+				"block_test",
+				"blog",
+				"book",
+				"boot_test_1",
+				"boot_test_2",
+				"bulk_export",
+				"canvas_api",
+				"ccc_update_test",
+				"cdn",
+				"cer",
+				"cer_commerce",
+				"cer_entity_settings",
+				"cer_ief",
+				"cer_profile2",
+				"cis_connector_views",
+				"cis_course_authority",
+				"cis_devel",
+				"cis_example_cis",
+				"cis_example_elmsln_cis",
+				"cis_example_elmsln_utility",
+				"cis_example_lms_sync",
+				"cis_example_mooc",
+				"cis_filter",
+				"cis_service_cle",
+				"cis_service_elmsmedia",
+				"cis_service_elmsmedia_wysiwyg",
+				"cis_service_icor",
+				"cis_tokens",
+				"cis_unique_tag",
+				"clipboardjs",
+				"color",
+				"comment",
+				"common_test",
+				"common_test_cron_helper",
+				"contact",
+				"context_condition_theme",
+				"context_layouts",
+				"cron_queue_test",
+				"css_emimage",
+				"css_injector",
+				"ctools_access_ruleset",
+				"ctools_ajax_sample",
+				"ctools_custom_content",
+				"ctools_export_test",
+				"ctools_plugin_example",
+				"ctools_plugin_test",
+				"dashboard",
+				"database_test",
+				"date",
+				"date_all_day",
+				"date_api",
+				"date_context",
+				"date_migrate",
+				"date_migrate_example",
+				"date_popup",
+				"date_repeat",
+				"date_repeat_field",
+				"date_tools",
+				"date_views",
+				"dblog",
+				"devel_generate",
+				"devel_node_access",
+				"devel_themer",
+				"display_inherit",
+				"drupal_autoload_test",
+				"drupal_system_listing_compatible_test",
+				"drupal_system_listing_incompatible_test",
+				"ds_devel",
+				"ds_exportables_test",
+				"ds_extras",
+				"ds_format",
+				"ds_search",
+				"ds_test",
+				"ds_ui",
+				"editableviews",
+				"editableviews_test_feature",
+				"elmsln_cdn",
+				"elmsln_ecd",
+				"elmsln_remote_link",
+				"elmsln_student_filter",
+				"email",
+				"entityreference_behavior_example",
+				"entityreference_feeds_test",
+				"entityreference_prepopulate_test",
+				"entity_cache_test",
+				"entity_cache_test_dependency",
+				"entity_crud_hook_test",
+				"entity_feature",
+				"entity_iframe_statistics",
+				"entity_query_access_test",
+				"entity_test",
+				"entity_test_i18n",
+				"environment_indicator_variable",
+				"error_test",
+				"eva",
+				"exif_orientation",
+				"extlink",
+				"features_test",
+				"feeds",
+				"feeds_import",
+				"feeds_news",
+				"feeds_ridmap",
+				"feeds_tamper",
+				"feeds_tamper_ui",
+				"feeds_tests",
+				"feeds_ui",
+				"feeds_xpathparser",
+				"field_collection",
+				"field_collection_fieldset",
+				"field_collection_node_clone",
+				"field_collection_table",
+				"field_collection_tabs",
+				"field_collection_tabs_widget",
+				"field_group_test",
+				"field_hidden",
+				"field_hidden_migrate",
+				"field_object",
+				"field_redirection",
+				"field_test",
+				"filefield_paths",
+				"filefield_paths_test",
+				"filefield_sources",
+				"file_entity",
+				"file_entity_test",
+				"file_module_test",
+				"file_test",
+				"filter_test",
+				"footnotes",
+				"footnotes_wysiwyg",
+				"form_test",
+				"forum",
+				"foundation_access_templates",
+				"foundation_access_viewmodes",
+				"h5p_tincan_bridge",
+				"help_example",
+				"imagefield_crop",
+				"imagefield_focus",
+				"image_module_test",
+				"image_test",
+				"inline_entity_form",
+				"jammer_feed",
+				"jammer_feed_icon",
+				"jammer_generic",
+				"jammer_messages",
+				"job_scheduler",
+				"job_scheduler_trigger",
+				"joyride",
+				"jquery_colorpicker",
+				"learning_registry",
+				"libraries_test_module",
+				"lightbox2",
+				"list_test",
+				"locale",
+				"locale_test",
+				"logintoboggan",
+				"logintoboggan_content_access_integration",
+				"logintoboggan_rules",
+				"logintoboggan_variable",
+				"lti_tool_provider_memberships",
+				"lti_tool_provider_outcomes",
+				"markdown",
+				"media",
+				"mediafield",
+				"media_internet",
+				"media_wysiwyg_view_mode",
+				"menu_test",
+				"menu_token",
+				"module_test",
+				"multiupload_filefield_widget",
+				"multiupload_imagefield_widget",
+				"nfcbiblio",
+				"nfccaptcha",
+				"nocurrent_pass",
+				"nodeformcols",
+				"nodejs",
+				"nodejs_actions",
+				"nodejs_ajax",
+				"nodejs_buddylist",
+				"nodejs_config",
+				"nodejs_notify",
+				"nodejs_subscribe",
+				"nodejs_watchdog",
+				"node_access_test",
+				"node_test",
+				"node_test_exception",
+				"og_access",
+				"og_clone",
+				"og_context",
+				"og_example",
+				"og_field_access",
+				"og_register",
+				"og_test",
+				"openid",
+				"openid_test",
+				"options_element",
+				"overlay",
+				"page_manager",
+				"paranoia",
+				"path",
+				"path_test",
+				"php",
+				"piwik",
+				"poll",
+				"profile",
+				"profiler_builder_extras",
+				"profile_switcher",
+				"psr_0_test",
+				"psr_4_test",
+				"quickpost_bookmarklet",
+				"quickpost_bookmarklet_node",
+				"rdf",
+				"rdf_test",
+				"realname",
+				"replicate_entityform",
+				"replicate_field_collection",
+				"replicate_ui",
+				"requirements1_test",
+				"requirements2_test",
+				"restws_test",
+				"rubric",
+				"rubric_feature",
+				"rubric_feedback",
+				"rules",
+				"rules_admin",
+				"rules_i18n",
+				"rules_scheduler",
+				"rules_scheduler_test",
+				"rules_test",
+				"scanner",
+				"scheduler",
+				"scheduler_test",
+				"sc_basic",
+				"search",
+				"search_api",
+				"search_api_facetapi",
+				"search_api_test",
+				"search_api_views",
+				"search_embedded_form",
+				"search_extra_type",
+				"search_node_tags",
+				"seckit",
+				"securepages",
+				"security_review",
+				"select_or_other",
+				"session_test",
+				"shortcode",
+				"shortcode_basic_tags",
+				"shortcode_embed_content",
+				"shortcode_video",
+				"shortcode_wysiwyg",
+				"shortcut",
+				"simplehtmldom",
+				"simpletest",
+				"simpletest_cis_registry",
+				"speedreader",
+				"statistics",
+				"stringoverrides",
+				"stringoverrides_migrate",
+				"stylizer",
+				"syslog",
+				"system_cron_test",
+				"system_dependencies_test",
+				"system_incompatible_core_version_dependencies_test",
+				"system_incompatible_core_version_test",
+				"system_incompatible_module_version_dependencies_test",
+				"system_incompatible_module_version_test",
+				"system_project_namespace_test",
+				"system_test",
+				"tag_scanner",
+				"tag_scanner_book",
+				"taxonomy",
+				"taxonomy_test",
+				"term_depth",
+				"textbook_section_508",
+				"textbook_wcag20aa",
+				"theme_test",
+				"tincanapi",
+				"tincanapi_content_types",
+				"tincanapi_links",
+				"tincanapi_media",
+				"tincanapi_profile",
+				"tincanapi_quiz",
+				"tincanapi_vimeo",
+				"tincanapi_youtube",
+				"tipsy",
+				"token_filter",
+				"token_insert",
+				"token_insert_ckeditor",
+				"token_insert_entity",
+				"token_insert_text",
+				"token_insert_wysiwyg",
+				"token_test",
+				"toolbar",
+				"tracker",
+				"translation",
+				"translation_test",
+				"trigger",
+				"trigger_test",
+				"ulmus_core",
+				"unique_field",
+				"update_script_test",
+				"update_test",
+				"update_test_1",
+				"update_test_2",
+				"update_test_3",
+				"url_alter_test",
+				"user_form_test",
+				"uuid_path",
+				"uuid_rebuild_ui",
+				"uuid_services",
+				"uuid_services_example",
+				"vagrant_cis_dev",
+				"vbo_search_and_replace",
+				"views_autorefresh",
+				"views_content",
+				"views_data_export",
+				"views_litepager",
+				"views_test",
+				"views_xml_backend",
+				"view_mode_tab",
+				"wysiwyg_test",
+				"xmlrpc_page_load",
+				"xmlrpc_test",
+				"pathauto",
+				"admin_menu_toolbar",
+				"bartik",
+				"foundation_access",
+				"garland",
+				"seven",
+				"stark",
+				"zurb_foundation",
+				"strongarm",
+				"cis_service_restws",
+				"masquerade",
+				"block",
+				"a11y",
+				"accessibility",
+				"accessibility_wysiwyg",
+				"addanother",
+				"adminimal_admin_menu",
+				"admin_menu_dropdown",
+				"advagg",
+				"advagg_bundler",
+				"advagg_mod",
+				"arbresdelaliberte_context",
+				"arbresdelaliberte_fields",
+				"arbresdelaliberte_media",
+				"arbresdelaliberte_menu",
+				"arbresdelaliberte_node_sdfsdfsdfsdf",
+				"arbresdelaliberte_node_section",
+				"arbresdelaliberte_og_features_permission_node_sdfsdfsdfsdf",
+				"arbresdelaliberte_og_features_permission_node_section",
+				"arbresdelaliberte_og_membership_type_og_membership_type_og_membership_type_default",
+				"arbresdelaliberte_site",
+				"arbresdelaliberte_users",
+				"arbresdelaliberte_views",
+				"authcache_ajax",
+				"authcache_block",
+				"authcache_builtin",
+				"authcache_field",
+				"authcache_menu",
+				"authcache_user",
+				"authcache_usercookie",
+				"authcache_views",
+				"back_to_top",
+				"better_exposed_filters",
+				"blockcache_alter",
+				"chosen",
+				"cis_account_required",
+				"cis_connector",
+				"cis_example_cis_service",
+				"cis_example_utility",
+				"cis_lmsless",
+				"cis_lmsless_nav",
+				"cis_lms_required",
+				"cis_performance_overrides",
+				"cis_section",
+				"cis_service_connection",
+				"cis_service_connection_ux",
+				"cis_service_lti",
+				"cis_service_roles",
+				"cis_shortcodes",
+				"context",
+				"contextual",
+				"context_ui",
+				"coolstuff_context",
+				"coolstuff_fields",
+				"coolstuff_media",
+				"coolstuff_menu",
+				"coolstuff_node_sdfsdfsdfsdf",
+				"coolstuff_node_section",
+				"coolstuff_og_features_permission_node_sdfsdfsdfsdf",
+				"coolstuff_og_features_permission_node_section",
+				"coolstuff_og_membership_type_og_membership_type_og_membership_type_default",
+				"coolstuff_site",
+				"coolstuff_users",
+				"coolstuff_views",
+				"ctools",
+				"defaultconfig",
+				"diff",
+				"elements",
+				"elmsln_advagg",
+				"elmsln_api",
+				"elmsln_authcache",
+				"elmsln_bakery",
+				"elmsln_core",
+				"elmsln_ln_settings",
+				"entity",
+				"entitycache",
+				"entityreference",
+				"entityreference_prepopulate",
+				"entity_iframe",
+				"entity_iframe_consumer",
+				"entity_iframe_mode",
+				"entity_iframe_provider",
+				"entity_token",
+				"environment_indicator",
+				"fastclick",
+				"features_builder",
+				"features_builder_default",
+				"features_override",
+				"field",
+				"field_sql_storage",
+				"field_ui",
+				"file",
+				"filter",
+				"foundation_access_ux",
+				"future_context",
+				"future_fields",
+				"future_media",
+				"future_menu",
+				"future_node_sdfsdfsdfsdf",
+				"future_node_section",
+				"future_og_features_permission_node_sdfsdfsdfsdf",
+				"future_og_features_permission_node_section",
+				"future_og_membership_type_og_membership_type_og_membership_type_default",
+				"future_site",
+				"future_users",
+				"future_views",
+				"gitphp",
+				"help",
+				"heymp_context",
+				"heymp_fields",
+				"heymp_media",
+				"heymp_menu",
+				"heymp_node_sdfsdfsdfsdf",
+				"heymp_node_section",
+				"heymp_og_features_permission_node_sdfsdfsdfsdf",
+				"heymp_og_features_permission_node_section",
+				"heymp_og_membership_type_og_membership_type_og_membership_type_default",
+				"heymp_site",
+				"heymp_users",
+				"heymp_views",
+				"image",
+				"imageinfo_cache",
+				"imce",
+				"imce_crop",
+				"imce_mkdir",
+				"imce_wysiwyg",
+				"jquery_update",
+				"libraries",
+				"link",
+				"list",
+				"lti_tool_provider",
+				"lti_tool_provider_og",
+				"menu",
+				"module_filter",
+				"navigation404",
+				"node",
+				"number",
+				"og",
+				"og_ui",
+				"options",
+				"placeholder",
+				"potter_context",
+				"potter_fields",
+				"potter_media",
+				"potter_menu",
+				"potter_node_sdfsdfsdfsdf",
+				"potter_node_section",
+				"potter_og_features_permission_node_sdfsdfsdfsdf",
+				"potter_og_features_permission_node_section",
+				"potter_og_membership_type_og_membership_type_og_membership_type_default",
+				"potter_site",
+				"potter_users",
+				"potter_views",
+				"profiler_builder",
+				"replicate",
+				"restws",
+				"restws_basic_auth",
+				"role_export",
+				"smartcrop",
+				"special_menu_items",
+				"stuff_context",
+				"stuff_fields",
+				"stuff_media",
+				"stuff_menu",
+				"stuff_node_sdfsdfsdfsdf",
+				"stuff_node_section",
+				"stuff_og_features_permission_node_sdfsdfsdfsdf",
+				"stuff_og_features_permission_node_section",
+				"stuff_og_membership_type_og_membership_type_og_membership_type_default",
+				"stuff_site",
+				"stuff_users",
+				"stuff_views",
+				"test1_context",
+				"test1_fields",
+				"test1_media",
+				"test1_menu",
+				"test1_node_sdfsdfsdfsdf",
+				"test1_node_section",
+				"test1_og_features_permission_node_sdfsdfsdfsdf",
+				"test1_og_features_permission_node_section",
+				"test1_og_membership_type_og_membership_type_og_membership_type_default",
+				"test1_site",
+				"test1_users",
+				"test1_views",
+				"test2_context",
+				"test2_fields",
+				"test2_media",
+				"test2_menu",
+				"test2_node_sdfsdfsdfsdf",
+				"test2_node_section",
+				"test2_og_features_permission_node_sdfsdfsdfsdf",
+				"test2_og_features_permission_node_section",
+				"test2_og_membership_type_og_membership_type_og_membership_type_default",
+				"test2_site",
+				"test2_users",
+				"test2_views",
+				"test3_context",
+				"test3_fields",
+				"test3_media",
+				"test3_menu",
+				"test3_node_sdfsdfsdfsdf",
+				"test3_node_section",
+				"test3_og_features_permission_node_sdfsdfsdfsdf",
+				"test3_og_features_permission_node_section",
+				"test3_og_membership_type_og_membership_type_og_membership_type_default",
+				"test3_site",
+				"test3_users",
+				"test3_views",
+				"test4_context",
+				"test4_fields",
+				"test4_media",
+				"test4_menu",
+				"test4_node_sdfsdfsdfsdf",
+				"test4_node_section",
+				"test4_og_features_permission_node_sdfsdfsdfsdf",
+				"test4_og_features_permission_node_section",
+				"test4_og_membership_type_og_membership_type_og_membership_type_default",
+				"test4_site",
+				"test4_users",
+				"test4_views",
+				"test5_context",
+				"test5_fields",
+				"test5_media",
+				"test5_menu",
+				"test5_node_sdfsdfsdfsdf",
+				"test5_node_section",
+				"test5_og_features_permission_node_sdfsdfsdfsdf",
+				"test5_og_features_permission_node_section",
+				"test5_og_membership_type_og_membership_type_og_membership_type_default",
+				"test5_site",
+				"test5_users",
+				"test5_views",
+				"test6_context",
+				"test6_fields",
+				"test6_media",
+				"test6_menu",
+				"test6_node_sdfsdfsdfsdf",
+				"test6_node_section",
+				"test6_og_features_permission_node_sdfsdfsdfsdf",
+				"test6_og_features_permission_node_section",
+				"test6_og_membership_type_og_membership_type_og_membership_type_default",
+				"test6_site",
+				"test6_users",
+				"test6_views",
+				"test7_context",
+				"test7_fields",
+				"test7_media",
+				"test7_menu",
+				"test7_node_sdfsdfsdfsdf",
+				"test7_node_section",
+				"test7_og_features_permission_node_sdfsdfsdfsdf",
+				"test7_og_features_permission_node_section",
+				"test7_og_membership_type_og_membership_type_og_membership_type_default",
+				"test7_site",
+				"test7_users",
+				"test7_views",
+				"testing_context",
+				"testing_fields",
+				"testing_media",
+				"testing_menu",
+				"testing_node_sdfsdfsdfsdf",
+				"testing_node_section",
+				"testing_og_features_permission_node_sdfsdfsdfsdf",
+				"testing_og_features_permission_node_section",
+				"testing_og_membership_type_og_membership_type_og_membership_type_default",
+				"testing_site",
+				"testing_users",
+				"testing_views",
+				"test_context",
+				"test_fields",
+				"test_media",
+				"test_menu",
+				"test_node_sdfsdfsdfsdf",
+				"test_node_section",
+				"test_og_features_permission_node_sdfsdfsdfsdf",
+				"test_og_features_permission_node_section",
+				"test_og_membership_type_og_membership_type_og_membership_type_default",
+				"test_site",
+				"test_users",
+				"test_views",
+				"text",
+				"textbook",
+				"textbook_editor",
+				"textbook_templates",
+				"token",
+				"transliteration",
+				"ulmus_innovate",
+				"update",
+				"user",
+				"uuid",
+				"video_filter",
+				"views_autocomplete_filters",
+				"views_bulk_operations",
+				"views_ui",
+				"wysiwyg",
+				"wysiwyg_template",
+				"ckeditor_link",
+				"ds",
+				"field_group",
+				"admin_theme",
+				"menu_attributes",
+				"prepopulate",
+				"views",
+				"ds_forms",
+				"features",
+				"admin_menu",
+				"better_formats",
+				"jammer",
+				"ulmus",
+				"adminimal",
+				"foundation_access_iframe",
+				"SUB_foundation_access",
+				"authcache",
+				"authcache_p13n",
+				"bakery",
+				"httprl",
+				"system",
+				"devel"
+			]
+		},
+		{
+			"command": "en",
+			"arguments": [
+				"strongarm",
+				"cis_service_restws",
+				"masquerade",
+				"block",
+				"a11y",
+				"accessibility",
+				"accessibility_wysiwyg",
+				"addanother",
+				"adminimal_admin_menu",
+				"admin_menu_dropdown",
+				"advagg",
+				"advagg_bundler",
+				"advagg_mod",
+				"arbresdelaliberte_context",
+				"arbresdelaliberte_fields",
+				"arbresdelaliberte_media",
+				"arbresdelaliberte_menu",
+				"arbresdelaliberte_node_sdfsdfsdfsdf",
+				"arbresdelaliberte_node_section",
+				"arbresdelaliberte_og_features_permission_node_sdfsdfsdfsdf",
+				"arbresdelaliberte_og_features_permission_node_section",
+				"arbresdelaliberte_og_membership_type_og_membership_type_og_membership_type_default",
+				"arbresdelaliberte_site",
+				"arbresdelaliberte_users",
+				"arbresdelaliberte_views",
+				"authcache_ajax",
+				"authcache_block",
+				"authcache_builtin",
+				"authcache_field",
+				"authcache_menu",
+				"authcache_user",
+				"authcache_usercookie",
+				"authcache_views",
+				"back_to_top",
+				"better_exposed_filters",
+				"blockcache_alter",
+				"chosen",
+				"cis_account_required",
+				"cis_connector",
+				"cis_example_cis_service",
+				"cis_example_utility",
+				"cis_lmsless",
+				"cis_lmsless_nav",
+				"cis_lms_required",
+				"cis_performance_overrides",
+				"cis_section",
+				"cis_service_connection",
+				"cis_service_connection_ux",
+				"cis_service_lti",
+				"cis_service_roles",
+				"cis_shortcodes",
+				"context",
+				"contextual",
+				"context_ui",
+				"coolstuff_context",
+				"coolstuff_fields",
+				"coolstuff_media",
+				"coolstuff_menu",
+				"coolstuff_node_sdfsdfsdfsdf",
+				"coolstuff_node_section",
+				"coolstuff_og_features_permission_node_sdfsdfsdfsdf",
+				"coolstuff_og_features_permission_node_section",
+				"coolstuff_og_membership_type_og_membership_type_og_membership_type_default",
+				"coolstuff_site",
+				"coolstuff_users",
+				"coolstuff_views",
+				"ctools",
+				"defaultconfig",
+				"diff",
+				"elements",
+				"elmsln_advagg",
+				"elmsln_api",
+				"elmsln_authcache",
+				"elmsln_bakery",
+				"elmsln_core",
+				"elmsln_ln_settings",
+				"entity",
+				"entityreference",
+				"entityreference_prepopulate",
+				"entity_iframe",
+				"entity_iframe_consumer",
+				"entity_iframe_mode",
+				"entity_iframe_provider",
+				"entity_token",
+				"environment_indicator",
+				"fastclick",
+				"features_builder",
+				"features_builder_default",
+				"features_override",
+				"field",
+				"field_sql_storage",
+				"field_ui",
+				"file",
+				"filter",
+				"foundation_access_ux",
+				"future_context",
+				"future_fields",
+				"future_media",
+				"future_menu",
+				"future_node_sdfsdfsdfsdf",
+				"future_node_section",
+				"future_og_features_permission_node_sdfsdfsdfsdf",
+				"future_og_features_permission_node_section",
+				"future_og_membership_type_og_membership_type_og_membership_type_default",
+				"future_site",
+				"future_users",
+				"future_views",
+				"gitphp",
+				"help",
+				"heymp_context",
+				"heymp_fields",
+				"heymp_media",
+				"heymp_menu",
+				"heymp_node_sdfsdfsdfsdf",
+				"heymp_node_section",
+				"heymp_og_features_permission_node_sdfsdfsdfsdf",
+				"heymp_og_features_permission_node_section",
+				"heymp_og_membership_type_og_membership_type_og_membership_type_default",
+				"heymp_site",
+				"heymp_users",
+				"heymp_views",
+				"image",
+				"imageinfo_cache",
+				"imce",
+				"imce_crop",
+				"imce_mkdir",
+				"imce_wysiwyg",
+				"jquery_update",
+				"libraries",
+				"link",
+				"list",
+				"lti_tool_provider",
+				"lti_tool_provider_og",
+				"menu",
+				"module_filter",
+				"navigation404",
+				"node",
+				"number",
+				"og",
+				"og_ui",
+				"options",
+				"placeholder",
+				"potter_context",
+				"potter_fields",
+				"potter_media",
+				"potter_menu",
+				"potter_node_sdfsdfsdfsdf",
+				"potter_node_section",
+				"potter_og_features_permission_node_sdfsdfsdfsdf",
+				"potter_og_features_permission_node_section",
+				"potter_og_membership_type_og_membership_type_og_membership_type_default",
+				"potter_site",
+				"potter_users",
+				"potter_views",
+				"profiler_builder",
+				"replicate",
+				"restws",
+				"restws_basic_auth",
+				"role_export",
+				"smartcrop",
+				"special_menu_items",
+				"stuff_context",
+				"stuff_fields",
+				"stuff_media",
+				"stuff_menu",
+				"stuff_node_sdfsdfsdfsdf",
+				"stuff_node_section",
+				"stuff_og_features_permission_node_sdfsdfsdfsdf",
+				"stuff_og_features_permission_node_section",
+				"stuff_og_membership_type_og_membership_type_og_membership_type_default",
+				"stuff_site",
+				"stuff_users",
+				"stuff_views",
+				"test1_context",
+				"test1_fields",
+				"test1_media",
+				"test1_menu",
+				"test1_node_sdfsdfsdfsdf",
+				"test1_node_section",
+				"test1_og_features_permission_node_sdfsdfsdfsdf",
+				"test1_og_features_permission_node_section",
+				"test1_og_membership_type_og_membership_type_og_membership_type_default",
+				"test1_site",
+				"test1_users",
+				"test1_views",
+				"test2_context",
+				"test2_fields",
+				"test2_media",
+				"test2_menu",
+				"test2_node_sdfsdfsdfsdf",
+				"test2_node_section",
+				"test2_og_features_permission_node_sdfsdfsdfsdf",
+				"test2_og_features_permission_node_section",
+				"test2_og_membership_type_og_membership_type_og_membership_type_default",
+				"test2_site",
+				"test2_users",
+				"test2_views",
+				"test3_context",
+				"test3_fields",
+				"test3_media",
+				"test3_menu",
+				"test3_node_sdfsdfsdfsdf",
+				"test3_node_section",
+				"test3_og_features_permission_node_sdfsdfsdfsdf",
+				"test3_og_features_permission_node_section",
+				"test3_og_membership_type_og_membership_type_og_membership_type_default",
+				"test3_site",
+				"test3_users",
+				"test3_views",
+				"test4_context",
+				"test4_fields",
+				"test4_media",
+				"test4_menu",
+				"test4_node_sdfsdfsdfsdf",
+				"test4_node_section",
+				"test4_og_features_permission_node_sdfsdfsdfsdf",
+				"test4_og_features_permission_node_section",
+				"test4_og_membership_type_og_membership_type_og_membership_type_default",
+				"test4_site",
+				"test4_users",
+				"test4_views",
+				"test5_context",
+				"test5_fields",
+				"test5_media",
+				"test5_menu",
+				"test5_node_sdfsdfsdfsdf",
+				"test5_node_section",
+				"test5_og_features_permission_node_sdfsdfsdfsdf",
+				"test5_og_features_permission_node_section",
+				"test5_og_membership_type_og_membership_type_og_membership_type_default",
+				"test5_site",
+				"test5_users",
+				"test5_views",
+				"test6_context",
+				"test6_fields",
+				"test6_media",
+				"test6_menu",
+				"test6_node_sdfsdfsdfsdf",
+				"test6_node_section",
+				"test6_og_features_permission_node_sdfsdfsdfsdf",
+				"test6_og_features_permission_node_section",
+				"test6_og_membership_type_og_membership_type_og_membership_type_default",
+				"test6_site",
+				"test6_users",
+				"test6_views",
+				"test7_context",
+				"test7_fields",
+				"test7_media",
+				"test7_menu",
+				"test7_node_sdfsdfsdfsdf",
+				"test7_node_section",
+				"test7_og_features_permission_node_sdfsdfsdfsdf",
+				"test7_og_features_permission_node_section",
+				"test7_og_membership_type_og_membership_type_og_membership_type_default",
+				"test7_site",
+				"test7_users",
+				"test7_views",
+				"testing_context",
+				"testing_fields",
+				"testing_media",
+				"testing_menu",
+				"testing_node_sdfsdfsdfsdf",
+				"testing_node_section",
+				"testing_og_features_permission_node_sdfsdfsdfsdf",
+				"testing_og_features_permission_node_section",
+				"testing_og_membership_type_og_membership_type_og_membership_type_default",
+				"testing_site",
+				"testing_users",
+				"testing_views",
+				"test_context",
+				"test_fields",
+				"test_media",
+				"test_menu",
+				"test_node_sdfsdfsdfsdf",
+				"test_node_section",
+				"test_og_features_permission_node_sdfsdfsdfsdf",
+				"test_og_features_permission_node_section",
+				"test_og_membership_type_og_membership_type_og_membership_type_default",
+				"test_site",
+				"test_users",
+				"test_views",
+				"text",
+				"textbook",
+				"textbook_editor",
+				"textbook_templates",
+				"token",
+				"transliteration",
+				"ulmus_innovate",
+				"update",
+				"user",
+				"uuid",
+				"video_filter",
+				"views_autocomplete_filters",
+				"views_bulk_operations",
+				"views_ui",
+				"wysiwyg",
+				"wysiwyg_template",
+				"ckeditor_link",
+				"ds",
+				"field_group",
+				"admin_theme",
+				"menu_attributes",
+				"prepopulate",
+				"views",
+				"ds_forms",
+				"features",
+				"admin_menu",
+				"better_formats",
+				"jammer",
+				"ulmus",
+				"adminimal",
+				"foundation_access_iframe",
+				"SUB_foundation_access",
+				"authcache",
+				"authcache_p13n",
+				"bakery",
+				"httprl",
+				"system",
+				"devel"
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"addanother_button_sdfsdfsdfsdf\\\", 1);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"addanother_message_sdfsdfsdfsdf\\\", 1);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"addanother_tab_edit_sdfsdfsdfsdf\\\", 1);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"addanother_tab_sdfsdfsdfsdf\\\", 1);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"additional_settings__active_tab_sdfsdfsdfsdf\\\", 'edit-submission');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"adminimal_admin_menu_toolbar-disabled\\\", true);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"admin_menu_cache_client\\\", 0);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"admin_menu_components\\\", array (\n  'admin_menu.icon' =\u003e true,\n  'admin_menu.menu' =\u003e true,\n  'admin_menu.users' =\u003e true,\n  'shortcut.links' =\u003e false,\n  'admin_menu.search' =\u003e false,\n  'admin_menu.account' =\u003e false,\n));\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"admin_menu_devel_modules_skip\\\", array (\n  'admin_devel' =\u003e 0,\n  'context_ui' =\u003e 0,\n  'devel' =\u003e 0,\n  'devel_node_access' =\u003e 0,\n  'devel_themer' =\u003e 0,\n  'field_ui' =\u003e 0,\n  'fontyourface_ui' =\u003e 0,\n  'rules_admin' =\u003e 0,\n  'views_ui' =\u003e 0,\n));\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"admin_menu_display\\\", '0');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"admin_menu_dropdown_default\\\", 0);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"admin_menu_margin_top\\\", 0);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"admin_menu_position_fixed\\\", 1);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"admin_menu_show_all\\\", 0);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"admin_menu_tweak_modules\\\", 0);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"admin_menu_tweak_permissions\\\", 0);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"admin_menu_tweak_tabs\\\", 0);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"admin_theme\\\", 'adminimal');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"admin_theme_admin_theme_batch\\\", 1);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"admin_theme_admin_theme_devel\\\", 1);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_ajax_render_alter\\\", 1);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_browser_dns_prefetch\\\", 1);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_bundler_max_css\\\", '2');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_bundler_max_js\\\", '2');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_cache_level\\\", '5');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_combine_css_media\\\", 1);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_convert_absolute_to_protocol_relative_path\\\", 1);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_convert_absolute_to_relative_path\\\", '1');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_core_groups\\\", false);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_css_fix_type\\\", 1);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_enabled\\\", 1);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_force_https_path\\\", 0);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_gzip\\\", 1);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_ie_css_selector_limiter\\\", 1);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_ie_css_selector_limiter_value\\\", '4095');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_include_base_url\\\", '1');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_js_fix_type\\\", 1);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_mod_css_adjust_sort_browsers\\\", 1);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_mod_css_adjust_sort_external\\\", 1);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_mod_css_adjust_sort_inline\\\", 1);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_mod_css_defer\\\", '0');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_mod_css_defer_js_code\\\", '0');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_mod_css_head_extract\\\", 1);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_mod_css_preprocess\\\", 1);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_mod_defer_inline_js_skip_list\\\", '');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_mod_inline_css_pages\\\", '');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_mod_inline_css_visibility\\\", '1');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_mod_inline_js_pages\\\", '');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_mod_inline_js_visibility\\\", '1');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_mod_inline_pages\\\", '');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_mod_inline_visibility\\\", '1');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_mod_js_adjust_sort_browsers\\\", 1);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_mod_js_adjust_sort_external\\\", 1);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_mod_js_adjust_sort_inline\\\", 1);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_mod_js_async\\\", 0);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_mod_js_async_in_header\\\", 1);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_mod_js_async_shim\\\", 0);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_mod_js_defer\\\", false);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_mod_js_defer_inline_alter\\\", 0);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_mod_js_footer\\\", '0');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_mod_js_footer_inline_alter\\\", 1);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_mod_js_get_external_dns\\\", 1);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_mod_js_head_extract\\\", 1);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_mod_js_no_ajaxpagestate\\\", 1);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_mod_js_preprocess\\\", 1);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_mod_js_remove_unused\\\", 1);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_mod_unified_multisite_dir\\\", '');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_mod_wrap_inline_js_skip_list\\\", '');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_mod_wrap_inline_js_xpath\\\", 0);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_remove_missing_files_from_db_time\\\", '1209600');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_remove_old_unused_aggregates_time\\\", '3888000');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"advagg_use_httprl\\\", 0);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"authcache_mimetype\\\", 'text\/html\ntext\/javascript\ntext\/plain\napplication\/xml\napplication\/atom+xml\n');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"authcache_pagecaching\\\", array (\n  0 =\u003e \n  array (\n    'option' =\u003e '0',\n    'pages' =\u003e 'user*\nnode\/add\/*\nnode\/*\/edit\nnode\/*\/track\ntracker*\ncomment\/edit*\ncivicrm*\ncart*\ncheckout*\nsystem\/files\/*\nsystem\/temporary*\nfile\/ajax\/*\njs\/admin_menu\/cache\/*\n',\n    'noadmin' =\u003e 1,\n    'roles' =\u003e \n    array (\n      'custom' =\u003e '1',\n      'roles' =\u003e \n      array (\n        1 =\u003e '1',\n        2 =\u003e '2',\n        135574917 =\u003e '135574917',\n        6065076 =\u003e '6065076',\n        66784200 =\u003e '66784200',\n        67296478 =\u003e '67296478',\n        75987638 =\u003e '75987638',\n        90720314 =\u003e '90720314',\n      ),\n    ),\n  ),\n));\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"authcache_roles\\\", array (\n  1 =\u003e '1',\n  2 =\u003e '2',\n  135574917 =\u003e '135574917',\n  6065076 =\u003e '6065076',\n  66784200 =\u003e '66784200',\n  67296478 =\u003e '67296478',\n  75987638 =\u003e '75987638',\n  90720314 =\u003e '90720314',\n));\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"bakery_domain\\\", '.elmsln.local');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"bakery_is_master\\\", 0);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"bakery_key\\\", 'WmpnNFpEZGlZemd0WmpZeE5pMHhNV1UxTFdFNE5UZ3RNRGd3TURJM05qZGxPVFUz');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"bakery_master\\\", 'http:\/\/people.elmsln.local\/');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"bakery_supported_fields\\\", array (\n  'name' =\u003e 'name',\n  'mail' =\u003e 'mail',\n  'status' =\u003e 'status',\n  'picture' =\u003e 'picture',\n  'language' =\u003e 0,\n  'signature' =\u003e 0,\n));\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"cache_class_cache_ctools_css\\\", 'CToolsCssCache');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"cis_help_page\\\", 'course-help');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"cis_lmsless_nav_links\\\", array (\n));\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"cis_resource_page\\\", 'https:\/\/www.elmsln.org\/');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"cis_section_default\\\", '0');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"cis_service_connection_last_sync\\\", 1459442941);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"cis_service_instance_uuid\\\", 'cb402750-7407-474a-bcef-4438eebbafe5');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"cis_syllabus_page\\\", '');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"ckeditor_link_autocomplete_menus\\\", array (\n  '- any -' =\u003e '- any -',\n  'devel' =\u003e 0,\n  'features' =\u003e 0,\n  'main-menu' =\u003e 0,\n  'management' =\u003e 0,\n  'navigation' =\u003e 0,\n  'user-menu' =\u003e 0,\n));\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"ckeditor_link_autocomplete_node_types\\\", array (\n  '- any -' =\u003e '- any -',\n  'certificate' =\u003e 0,\n  'page' =\u003e 0,\n));\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"ckeditor_link_autocomplete_vocabularies\\\", array (\n  '- any -' =\u003e '- any -',\n  1 =\u003e 0,\n));\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"ckeditor_link_type_name\\\", 'Internal link');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"ckeditor_link_type_selected\\\", 0);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"comment_anonymous_section\\\", 0);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"comment_default_mode_section\\\", 0);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"comment_default_per_page_section\\\", '50');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"comment_form_location_section\\\", 1);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"comment_preview_section\\\", '1');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"comment_section\\\", '0');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"comment_subject_field_section\\\", 1);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"context_block_rebuild_needed\\\", true);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"cron_safe_threshold\\\", '0');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"date_default_timezone\\\", 'UTC');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"diff_enable_revisions_page_node_sdfsdfsdfsdf\\\", 1);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"diff_show_preview_changes_node_sdfsdfsdfsdf\\\", 1);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"diff_view_mode_preview_node_sdfsdfsdfsdf\\\", 'full');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"drupal_http_request_function\\\", 0);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"elmsln_api_sync\\\", '0');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"entitycache_enabled\\\", true);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"entityreference:base-tables\\\", array (\n  'accessibility_test' =\u003e \n  array (\n    0 =\u003e 'accessibility_test',\n    1 =\u003e 'test_id',\n  ),\n  'lti_tool_provider_consumer' =\u003e \n  array (\n    0 =\u003e 'lti_tool_provider_consumer',\n    1 =\u003e 'lti_tool_provider_consumer_id',\n  ),\n  'node' =\u003e \n  array (\n    0 =\u003e 'node',\n    1 =\u003e 'nid',\n  ),\n  'og_membership_type' =\u003e \n  array (\n    0 =\u003e 'og_membership_type',\n    1 =\u003e 'id',\n  ),\n  'og_membership' =\u003e \n  array (\n    0 =\u003e 'og_membership',\n    1 =\u003e 'id',\n  ),\n  'file' =\u003e \n  array (\n    0 =\u003e 'file_managed',\n    1 =\u003e 'fid',\n  ),\n  'user' =\u003e \n  array (\n    0 =\u003e 'users',\n    1 =\u003e 'uid',\n  ),\n  'wysiwyg_profile' =\u003e \n  array (\n    0 =\u003e 'wysiwyg',\n    1 =\u003e 'format',\n  ),\n));\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"entity_cache_tables_created\\\", NULL);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"entity_iframe_embed\\\", 0);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"entity_iframe_link\\\", 0);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"entity_iframe_theme\\\", 'foundation_access_iframe');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"features_builder_base_dir\\\", 'sites\/all\/modules\/_my_modules\/innovate\/features_builder\/btopro\/arbresdelaliberte');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"features_builder_ignore\\\", '');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"features_builder_prefix_label\\\", 'arbresdelaliberte');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"features_builder_prefix_name\\\", 'arbresdelaliberte');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"features_ignored_orphans\\\", array (\n));\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"features_modules_changed\\\", false);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"features_semaphore\\\", array (\n));\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"field_bundle_settings_accessibility_test__accessibility_test\\\", array (\n  'view_modes' =\u003e \n  array (\n    'popup' =\u003e \n    array (\n      'custom_settings' =\u003e true,\n    ),\n    'full' =\u003e \n    array (\n      'custom_settings' =\u003e false,\n    ),\n  ),\n  'extra_fields' =\u003e \n  array (\n    'form' =\u003e \n    array (\n    ),\n    'display' =\u003e \n    array (\n      'quail_name' =\u003e \n      array (\n        'default' =\u003e \n        array (\n          'weight' =\u003e '3',\n          'visible' =\u003e false,\n        ),\n        'popup' =\u003e \n        array (\n          'weight' =\u003e '3',\n          'visible' =\u003e false,\n        ),\n      ),\n      'severity' =\u003e \n      array (\n        'default' =\u003e \n        array (\n          'weight' =\u003e '2',\n          'visible' =\u003e false,\n        ),\n        'popup' =\u003e \n        array (\n          'weight' =\u003e '2',\n          'visible' =\u003e false,\n        ),\n      ),\n      'status' =\u003e \n      array (\n        'default' =\u003e \n        array (\n          'weight' =\u003e '1',\n          'visible' =\u003e false,\n        ),\n        'popup' =\u003e \n        array (\n          'weight' =\u003e '1',\n          'visible' =\u003e false,\n        ),\n      ),\n    ),\n  ),\n));\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"field_bundle_settings_node__sdfsdfsdfsdf\\\", array (\n  'view_modes' =\u003e \n  array (\n  ),\n  'extra_fields' =\u003e \n  array (\n    'form' =\u003e \n    array (\n      'title' =\u003e \n      array (\n        'weight' =\u003e '-5',\n      ),\n    ),\n    'display' =\u003e \n    array (\n    ),\n  ),\n));\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"field_bundle_settings_node__section\\\", array (\n  'view_modes' =\u003e \n  array (\n    'teaser' =\u003e \n    array (\n      'custom_settings' =\u003e false,\n    ),\n    'full' =\u003e \n    array (\n      'custom_settings' =\u003e false,\n    ),\n    'rss' =\u003e \n    array (\n      'custom_settings' =\u003e false,\n    ),\n    'token' =\u003e \n    array (\n      'custom_settings' =\u003e false,\n    ),\n  ),\n  'extra_fields' =\u003e \n  array (\n    'form' =\u003e \n    array (\n      'title' =\u003e \n      array (\n        'weight' =\u003e '-5',\n      ),\n    ),\n    'display' =\u003e \n    array (\n    ),\n  ),\n));\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"filter_fallback_format\\\", 'plain_text');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"httprl_background_callback\\\", '1');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"httprl_server_addr\\\", '-1');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"imce_custom_content\\\", array (\n  'imce_mkdir_content' =\u003e 1,\n));\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"imce_custom_process\\\", array (\n  'imce_mkdir_process_profile' =\u003e 1,\n));\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"imce_profiles\\\", array (\n  1 =\u003e \n  array (\n    'name' =\u003e 'User-1',\n    'usertab' =\u003e 1,\n    'filesize' =\u003e 0,\n    'quota' =\u003e 0,\n    'tuquota' =\u003e 0,\n    'extensions' =\u003e '*',\n    'dimensions' =\u003e '1200x1200',\n    'filenum' =\u003e 0,\n    'directories' =\u003e \n    array (\n      0 =\u003e \n      array (\n        'name' =\u003e '.',\n        'subnav' =\u003e 1,\n        'browse' =\u003e 1,\n        'upload' =\u003e 1,\n        'thumb' =\u003e 1,\n        'delete' =\u003e 1,\n        'resize' =\u003e 1,\n        'crop' =\u003e 1,\n        'mkdir' =\u003e 1,\n        'rmdir' =\u003e 1,\n      ),\n    ),\n    'thumbnails' =\u003e \n    array (\n      0 =\u003e \n      array (\n        'name' =\u003e 'Small',\n        'dimensions' =\u003e '90x90',\n        'prefix' =\u003e 'small_',\n        'suffix' =\u003e '',\n      ),\n      1 =\u003e \n      array (\n        'name' =\u003e 'Medium',\n        'dimensions' =\u003e '120x120',\n        'prefix' =\u003e 'medium_',\n        'suffix' =\u003e '',\n      ),\n      2 =\u003e \n      array (\n        'name' =\u003e 'Large',\n        'dimensions' =\u003e '180x180',\n        'prefix' =\u003e 'large_',\n        'suffix' =\u003e '',\n      ),\n    ),\n    'mkdirnum' =\u003e 0,\n  ),\n  2 =\u003e \n  array (\n    'name' =\u003e 'Sample profile',\n    'usertab' =\u003e 1,\n    'filesize' =\u003e 1,\n    'quota' =\u003e 2,\n    'tuquota' =\u003e 0,\n    'extensions' =\u003e 'gif png jpg jpeg',\n    'dimensions' =\u003e '800x600',\n    'filenum' =\u003e 1,\n    'directories' =\u003e \n    array (\n      0 =\u003e \n      array (\n        'name' =\u003e 'u%uid',\n        'subnav' =\u003e 0,\n        'browse' =\u003e 1,\n        'upload' =\u003e 1,\n        'thumb' =\u003e 1,\n        'delete' =\u003e 0,\n        'resize' =\u003e 0,\n        'crop' =\u003e 0,\n        'mkdir' =\u003e 0,\n        'rmdir' =\u003e 0,\n      ),\n    ),\n    'thumbnails' =\u003e \n    array (\n      0 =\u003e \n      array (\n        'name' =\u003e 'Thumb',\n        'dimensions' =\u003e '90x90',\n        'prefix' =\u003e 'thumb_',\n        'suffix' =\u003e '',\n      ),\n    ),\n    'mkdirnum' =\u003e 2,\n  ),\n));\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"jquery_update_compression_type\\\", 'min');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"jquery_update_jquery_admin_version\\\", 'default');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"jquery_update_jquery_version\\\", '1.11');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"lti_tool_provider_global_role_array\\\", array (\n  'Learner' =\u003e '7',\n  'Instructor' =\u003e '4',\n  'ContentDeveloper' =\u003e '6',\n  'Member' =\u003e '2',\n  'Manager' =\u003e '2',\n  'Mentor' =\u003e '2',\n  'Administrator' =\u003e '2',\n  'TeachingAssistant' =\u003e '8',\n));\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"lti_tool_provider_og_group_mapping\\\", array (\n  'context_id' =\u003e 'field_section_id',\n  'context_label' =\u003e 'none',\n  'context_title' =\u003e 'title',\n  'context_type' =\u003e 'none',\n));\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"lti_tool_provider_og_group_mapping_bundle\\\", 'node:section');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"lti_tool_provider_og_group_role_array\\\", array (\n  'Learner' =\u003e '2',\n  'Instructor' =\u003e '2',\n  'ContentDeveloper' =\u003e '2',\n  'Member' =\u003e '2',\n  'Manager' =\u003e '2',\n  'Mentor' =\u003e '2',\n  'Administrator' =\u003e '2',\n  'TeachingAssistant' =\u003e '2',\n));\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"lti_tool_provider_og_provision_groups\\\", 1);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"lti_tool_provider_og_provision_groups_anon\\\", 1);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"lti_tool_provider_user_attribute_entity_type\\\", 'profile2:main');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"lti_tool_provider_user_attribute_mapping\\\", array (\n  'lis_person_name_given' =\u003e 'none',\n  'lis_person_name_family' =\u003e 'none',\n  'lis_person_name_full' =\u003e 'none',\n));\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"masquerade_admin_roles\\\", array (\n  166149871 =\u003e '166149871',\n  30037204 =\u003e '30037204',\n  76550217 =\u003e '76550217',\n  1 =\u003e 0,\n  2 =\u003e 0,\n  6065076 =\u003e 0,\n  135574917 =\u003e 0,\n  66784200 =\u003e 0,\n  67296478 =\u003e 0,\n  75987638 =\u003e 0,\n  90720314 =\u003e 0,\n));\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"menu_options_sdfsdfsdfsdf\\\", array (\n  0 =\u003e 'main-menu',\n));\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"menu_options_section\\\", array (\n));\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"menu_parent_sdfsdfsdfsdf\\\", 'main-menu:0');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"menu_parent_section\\\", 'main-menu:0');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"node_admin_theme\\\", 0);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"node_options_sdfsdfsdfsdf\\\", array (\n  0 =\u003e 'status',\n  1 =\u003e 'promote',\n));\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"node_options_section\\\", array (\n  0 =\u003e 'status',\n));\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"node_preview_sdfsdfsdfsdf\\\", '1');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"node_preview_section\\\", '0');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"node_submitted_sdfsdfsdfsdf\\\", 1);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"node_submitted_section\\\", 0);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"path_alias_whitelist\\\", array (\n  'node' =\u003e true,\n  'user' =\u003e true,\n));\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"save_continue_sdfsdfsdfsdf\\\", 'Save and add fields');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"site_404\\\", 'navigation404');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"site_frontpage\\\", 'cool-new-view');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"textbook_active\\\", 'textbook_zurb');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"textbook_reset\\\", false);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"theme_default\\\", 'SUB_foundation_access');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"theme_seven_settings\\\", array (\n  'default_logo' =\u003e 1,\n  'logo_path' =\u003e '',\n  'default_favicon' =\u003e 1,\n  'favicon_path' =\u003e '',\n  'favicon_mimetype' =\u003e 'image\/vnd.microsoft.icon',\n  'toggle_logo' =\u003e 1,\n  'toggle_favicon' =\u003e 1,\n  'toggle_name' =\u003e 1,\n  'toggle_slogan' =\u003e 1,\n  'toggle_node_user_picture' =\u003e 1,\n  'toggle_comment_user_picture' =\u003e 1,\n  'toggle_comment_user_verification' =\u003e 1,\n  'toggle_main_menu' =\u003e 1,\n  'toggle_secondary_menu' =\u003e 1,\n  'shortcut_module_link' =\u003e '1',\n  'logo' =\u003e 'http:\/\/sing100\/themes\/seven\/logo.png',\n  'favicon' =\u003e 'http:\/\/sing100\/misc\/favicon.ico',\n  'jquery_update_jquery_version' =\u003e 'default',\n));\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"theme_SUB_foundation_access_settings\\\", array (\n  'foundation_access_system_label' =\u003e 'Innovate',\n  'foundation_access_primary_color' =\u003e '',\n  'foundation_access_secondary_color' =\u003e '',\n  'foundation_access_required_color' =\u003e '',\n  'foundation_access_optional_color' =\u003e '',\n  'foundation_access_logo_options' =\u003e NULL,\n  'default_favicon' =\u003e 1,\n  'favicon_path' =\u003e '',\n  'favicon_upload' =\u003e '',\n  'default_logo' =\u003e 1,\n  'logo_path' =\u003e '',\n  'logo_upload' =\u003e '',\n));\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"user_email_verification\\\", '0');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"user_pictures\\\", 1);\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"user_picture_dimensions\\\", '220x220');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"user_picture_file_size\\\", '100');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"user_picture_path\\\", 'pictures');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"user_picture_style\\\", 'foundation_access_profile');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"user_register\\\", '1');\""
+			]
+		},
+		{
+			"command": "ev",
+			"arguments": [
+				"\"variable_set(\\\"wysiwyg_template_default_sdfsdfsdfsdf\\\", '');\""
+			]
+		},
+		{
+			"command": "rcrt",
+			"arguments": [
+				"guest",
+				"guest"
+			]
+		},
+		{
+			"command": "rcrt",
+			"arguments": [
+				"past student",
+				"past student"
+			]
+		},
+		{
+			"command": "rcrt",
+			"arguments": [
+				"student",
+				"student"
+			]
+		},
+		{
+			"command": "rcrt",
+			"arguments": [
+				"teaching assistant",
+				"teaching assistant"
+			]
+		},
+		{
+			"command": "rcrt",
+			"arguments": [
+				"instructor",
+				"instructor"
+			]
+		},
+		{
+			"command": "rcrt",
+			"arguments": [
+				"staff",
+				"staff"
+			]
+		},
+		{
+			"command": "rcrt",
+			"arguments": [
+				"administrator",
+				"administrator"
+			]
+		},
+		{
+			"command": "rcrt",
+			"arguments": [
+				"SERVICE ACCOUNT",
+				"SERVICE ACCOUNT"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"anonymous user",
+				"access iframe version"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"anonymous user",
+				"view lmsless bar"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"authenticated user",
+				"access iframe version"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"authenticated user",
+				"view lmsless bar"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"guest",
+				"access content"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"guest",
+				"switch section context"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"past student",
+				"access content"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"student",
+				"access content"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"teaching assistant",
+				"access content"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"teaching assistant",
+				"switch section context"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"teaching assistant",
+				"use text format textbook_editor"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"teaching assistant",
+				"view iframe embed code"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"instructor",
+				"access admin theme"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"instructor",
+				"access ckeditor link"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"instructor",
+				"access content"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"instructor",
+				"access elmsln administration areas"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"instructor",
+				"edit own section content"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"instructor",
+				"masquerade as any user"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"instructor",
+				"masquerade as user"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"instructor",
+				"revert revisions"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"instructor",
+				"show format selection for node"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"instructor",
+				"switch section context"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"instructor",
+				"use text format textbook_editor"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"instructor",
+				"view cis shortcode"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"instructor",
+				"view iframe embed code"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"instructor",
+				"view lmsless administration links"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"instructor",
+				"view revisions"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"instructor",
+				"view the administration theme"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"staff",
+				"access admin theme"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"staff",
+				"access administration menu"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"staff",
+				"access administration pages"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"staff",
+				"access ckeditor link"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"staff",
+				"access content"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"staff",
+				"access elmsln administration areas"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"staff",
+				"administer cis lms-less nav"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"staff",
+				"bypass node access"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"staff",
+				"edit any section content"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"staff",
+				"edit own section content"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"staff",
+				"flush caches"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"staff",
+				"masquerade as any user"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"staff",
+				"masquerade as user"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"staff",
+				"revert revisions"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"staff",
+				"show format selection for node"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"staff",
+				"switch section context"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"staff",
+				"use text format textbook_editor"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"staff",
+				"view cis shortcode"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"staff",
+				"view iframe embed code"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"staff",
+				"view lmsless administration links"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"staff",
+				"view revisions"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"staff",
+				"view the administration theme"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"access admin theme"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"access administration menu"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"access administration pages"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"access all views"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"access back_to_top settings"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"access ckeditor link"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"access content"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"access content overview"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"access contextual links"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"access devel information"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"access elmsln administration areas"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"access environment indicator"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"access environment indicator default_environment"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"access environment indicator overwritten_environment"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"access iframe version"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"access lti_tool_provider_consumer entities"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"access resource accessibility_test"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"access resource file"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"access resource node"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"access resource og_membership"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"access resource og_membership_type"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"access resource user"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"access resource wysiwyg_profile"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"access site in maintenance mode"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"access site reports"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"access user profiles"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"administer accessibility tests"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"administer actions"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"administer add another"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"administer bakery"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"administer blocks"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"administer cis lms-less nav"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"administer ckeditor link"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"administer content types"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"administer contexts"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"administer default config"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"administer environment indicator settings"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"administer features"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"administer fieldgroups"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"administer filters"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"administer group"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"administer image styles"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"administer imce"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"administer lti_tool_provider module"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"administer masquerade"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"administer menu"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"administer menu attributes"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"administer module filter"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"administer modules"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"administer nodes"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"administer permissions"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"administer profiler builder"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"administer site configuration"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"administer software updates"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"administer themes"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"administer url aliases"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"administer users"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"administer uuid"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"administer views"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"administer wysiwyg templates"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"admin_display_suite"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"block IP addresses"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"bypass advanced aggregation"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"bypass node access"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"cancel account"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"change own username"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"configure authcache blocks"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"context ajax block access"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"create section content"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"create url aliases"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"delete any section content"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"delete own section content"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"delete revisions"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"display drupal links"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"edit any section content"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"edit own section content"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"execute php code"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"flush caches"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"generate features"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"import wysiwyg templates"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"manage features"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"masquerade as admin"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"masquerade as any user"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"masquerade as user"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"rename features"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"revert revisions"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"select account cancellation method"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"show format selection for accessibility_test"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"show format selection for node"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"show format selection for og_membership"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"show format selection for og_membership_type"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"show format selection for user"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"show format tips"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"show more format tips link"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"switch section context"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"switch users"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"use add another"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"use ctools import"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"use text format textbook_editor"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"view a11y simulations"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"view accessibility tests"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"view author options"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"view body options"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"view cis shortcode"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"view comment preview button"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"view comment settings"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"view delete button"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"view iframe embed code"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"view lmsless administration links"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"view lmsless bar"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"view lti info"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"view menu options"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"view own unpublished content"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"view path options"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"view preview button"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"view revision information"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"view revision log textarea"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"view revisions"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"view submit button"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"view teaser controls"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"view the administration theme"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"administrator",
+				"view user delete button"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"SERVICE ACCOUNT",
+				"access resource node"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"SERVICE ACCOUNT",
+				"bypass bakery"
+			]
+		},
+		{
+			"command": "rap",
+			"arguments": [
+				"SERVICE ACCOUNT",
+				"bypass node access"
+			]
+		}
+	],
+	"metadata": {
+		"type": "test",
+		"version": "0.0",
+		"author": "test",
+		"description": "This is a test run"
+	}
+}

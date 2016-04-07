@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the arbresdelaliberte Media feature.
+ */
+
+include_once 'arbresdelaliberte_media.features.inc';
