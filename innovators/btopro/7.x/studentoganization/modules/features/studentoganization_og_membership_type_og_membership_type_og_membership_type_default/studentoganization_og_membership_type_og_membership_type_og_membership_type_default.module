@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the studentoganization Default og membership type feature.
+ */
+
+include_once 'studentoganization_og_membership_type_og_membership_type_og_membership_type_default.features.inc';

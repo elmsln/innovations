@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the studentoganization Media feature.
+ */
+
+include_once 'studentoganization_media.features.inc';

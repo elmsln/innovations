@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the studentoganization Student organization feature.
+ */
+
+include_once 'studentoganization_node_student_organization.features.inc';

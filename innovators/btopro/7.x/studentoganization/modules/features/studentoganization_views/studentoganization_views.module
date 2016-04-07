@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the studentoganization Views feature.
+ */
+
+include_once 'studentoganization_views.features.inc';
