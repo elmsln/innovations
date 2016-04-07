@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the studentoganization Users feature.
+ */
+
+include_once 'studentoganization_users.features.inc';
