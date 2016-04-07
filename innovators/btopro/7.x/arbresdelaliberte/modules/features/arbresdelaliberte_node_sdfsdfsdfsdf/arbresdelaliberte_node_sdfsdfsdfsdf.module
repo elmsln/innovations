@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the arbresdelaliberte sdfsdfsdfsdf feature.
+ */
+
+include_once 'arbresdelaliberte_node_sdfsdfsdfsdf.features.inc';

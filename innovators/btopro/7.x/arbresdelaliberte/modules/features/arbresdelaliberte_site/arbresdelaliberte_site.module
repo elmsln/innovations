@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the arbresdelaliberte Site feature.
+ */
+
+include_once 'arbresdelaliberte_site.features.inc';
