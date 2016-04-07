@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the future Default og membership type feature.
+ */
+
+include_once 'future_og_membership_type_og_membership_type_og_membership_type_default.features.inc';
