@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the potter Media feature.
+ */
+
+include_once 'potter_media.features.inc';
