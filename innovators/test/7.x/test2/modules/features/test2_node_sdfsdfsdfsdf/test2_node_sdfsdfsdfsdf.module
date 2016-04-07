@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the test2 sdfsdfsdfsdf feature.
+ */
+
+include_once 'test2_node_sdfsdfsdfsdf.features.inc';
