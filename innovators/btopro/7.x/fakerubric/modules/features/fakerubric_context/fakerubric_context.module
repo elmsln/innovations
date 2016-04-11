@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the fakerubric Context feature.
+ */
+
+include_once 'fakerubric_context.features.inc';

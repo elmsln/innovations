@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the fakerubric Rubric feature.
+ */
+
+include_once 'fakerubric_node_rubric.features.inc';
