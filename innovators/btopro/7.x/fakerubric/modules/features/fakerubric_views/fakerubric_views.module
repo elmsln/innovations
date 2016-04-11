@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the fakerubric Views feature.
+ */
+
+include_once 'fakerubric_views.features.inc';

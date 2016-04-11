@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the fakerubric Site feature.
+ */
+
+include_once 'fakerubric_site.features.inc';
