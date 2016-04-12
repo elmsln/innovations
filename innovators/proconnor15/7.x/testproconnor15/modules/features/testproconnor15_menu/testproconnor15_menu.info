@@ -1,0 +1,14 @@
+name = testproconnor15 Menu
+core = 7.x
+package = Configuration
+dependencies[] = cis_service_connection_ux
+dependencies[] = menu
+features[features_api][] = api:2
+features[menu_custom][] = devel
+features[menu_custom][] = main-menu
+features[menu_custom][] = management
+features[menu_custom][] = menu-elmsln-add
+features[menu_custom][] = menu-elmsln-navigation
+features[menu_custom][] = menu-elmsln-settings
+features[menu_custom][] = navigation
+features[menu_custom][] = user-menu

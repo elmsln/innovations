@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the testproconnor15 Testing feature.
+ */
+
+include_once 'testproconnor15_node_testing.features.inc';
