@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the testproconnor15 Views feature.
+ */
+
+include_once 'testproconnor15_views.features.inc';
