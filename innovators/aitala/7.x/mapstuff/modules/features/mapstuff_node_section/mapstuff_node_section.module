@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the mapstuff Course Section feature.
+ */
+
+include_once 'mapstuff_node_section.features.inc';

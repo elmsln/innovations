@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the mapstuff Users feature.
+ */
+
+include_once 'mapstuff_users.features.inc';
