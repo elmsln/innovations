@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the mapbyaddressfield Users feature.
+ */
+
+include_once 'mapbyaddressfield_users.features.inc';

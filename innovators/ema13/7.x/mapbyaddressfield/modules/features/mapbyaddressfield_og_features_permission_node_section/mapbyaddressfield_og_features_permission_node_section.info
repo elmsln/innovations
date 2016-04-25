@@ -1,0 +1,17 @@
+name = mapbyaddressfield node section og features permission
+core = 7.x
+package = OG
+dependencies[] = features
+dependencies[] = og
+dependencies[] = og_ui
+features[features_api][] = api:2
+features[og_features_permission][] = node:section:add user
+features[og_features_permission][] = node:section:administer group
+features[og_features_permission][] = node:section:approve and deny subscription
+features[og_features_permission][] = node:section:manage members
+features[og_features_permission][] = node:section:manage permissions
+features[og_features_permission][] = node:section:manage roles
+features[og_features_permission][] = node:section:subscribe
+features[og_features_permission][] = node:section:subscribe without approval
+features[og_features_permission][] = node:section:unsubscribe
+features[og_features_permission][] = node:section:update group

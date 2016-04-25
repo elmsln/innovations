@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the mapbyaddressfield Location - By Address feature.
+ */
+
+include_once 'mapbyaddressfield_node_location_address_innovate_elmsln.features.inc';

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the mapbyaddressfield Views feature.
+ */
+
+include_once 'mapbyaddressfield_views.features.inc';
