@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the mapbyaddressfield Context feature.
+ */
+
+include_once 'mapbyaddressfield_context.features.inc';

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the mapbyaddressfield Media feature.
+ */
+
+include_once 'mapbyaddressfield_media.features.inc';

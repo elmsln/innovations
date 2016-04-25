@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the mapbyaddressfield Course Section feature.
+ */
+
+include_once 'mapbyaddressfield_node_section.features.inc';
