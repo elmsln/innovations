@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the totaldemo sdffdsdfs feature.
+ */
+
+include_once 'totaldemo_node_sdffdsdfs.features.inc';

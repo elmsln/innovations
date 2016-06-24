@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the totaldemo Views feature.
+ */
+
+include_once 'totaldemo_views.features.inc';
