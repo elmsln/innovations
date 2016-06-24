@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the totaldemo Users feature.
+ */
+
+include_once 'totaldemo_users.features.inc';

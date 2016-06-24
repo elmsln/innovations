@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the totaldemo Context feature.
+ */
+
+include_once 'totaldemo_context.features.inc';

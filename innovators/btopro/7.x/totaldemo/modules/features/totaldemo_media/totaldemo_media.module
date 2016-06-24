@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the totaldemo Media feature.
+ */
+
+include_once 'totaldemo_media.features.inc';
