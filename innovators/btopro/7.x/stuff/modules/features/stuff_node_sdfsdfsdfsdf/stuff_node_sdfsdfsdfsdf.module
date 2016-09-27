@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the stuff sdfsdfsdfsdf feature.
+ */
+
+include_once 'stuff_node_sdfsdfsdfsdf.features.inc';
